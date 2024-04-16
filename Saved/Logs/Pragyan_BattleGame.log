@@ -1,0 +1,1009 @@
+﻿Log file open, 04/16/24 14:33:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Pragyan_BattleGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.537133
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.111s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: AMD Radeon RX 6700 XT
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=368b737478804d7c80a305dfb1be0ac4 -AUTH_TYPE=exchangecode -epicapp=UE_4.20 -epicenv=Prod -EpicPortal  -epicusername="NLKeSports" -epicuserid=56eac3cc707b445c834f8b0331903d33 -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.04.16-21.33.56:909][  0]LogInit: Selected Device Profile: [Windows]
+[2024.04.16-21.33.56:909][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.04.16-21.33.56:921][  0]LogHAL: Display: Platform has ~ 16 GB [17102372864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.04.16-21.33.56:921][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2024.04.16-21.33.56:921][  0]LogInit: Going up to parent DeviceProfile []
+[2024.04.16-21.33.56:921][  0]LogInit: Computer: DESKTOP-KKQV115
+[2024.04.16-21.33.56:921][  0]LogInit: User: linxy
+[2024.04.16-21.33.56:921][  0]LogInit: CPU Page size=4096, Cores=6
+[2024.04.16-21.33.56:921][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.04.16-21.33.56:921][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2024.04.16-21.33.56:921][  0]LogMemory: Platform Memory Stats for Windows
+[2024.04.16-21.33.56:921][  0]LogMemory: Process Physical Memory: 104.22 MB used, 104.22 MB peak
+[2024.04.16-21.33.56:921][  0]LogMemory: Process Virtual Memory: 86.13 MB used, 86.13 MB peak
+[2024.04.16-21.33.56:921][  0]LogMemory: Physical Memory: 8736.38 MB used,  7573.71 MB free, 16310.09 MB total
+[2024.04.16-21.33.56:921][  0]LogMemory: Virtual Memory: 4649.15 MB used,  7573.71 MB free, 134217728.00 MB total
+[2024.04.16-21.33.56:930][  0]LogInit: Using OS detected language (en-US).
+[2024.04.16-21.33.56:930][  0]LogInit: Using OS detected locale (en-US).
+[2024.04.16-21.33.56:931][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2024.04.16-21.33.57:210][  0]LogStreaming: Display: Took  0.279s to InitEngineTextLocalization.
+[2024.04.16-21.33.57:210][  0]LogInit: Setting process to per monitor DPI aware
+[2024.04.16-21.33.57:229][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.04.16-21.33.57:229][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.04.16-21.33.57:375][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.04.16-21.33.57:375][  0]LogD3D11RHI: D3D11 adapters:
+[2024.04.16-21.33.57:476][  0]LogD3D11RHI:    0. 'AMD Radeon RX 6700 XT' (Feature Level 11_0)
+[2024.04.16-21.33.57:476][  0]LogD3D11RHI:       12243/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2024.04.16-21.33.57:478][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.04.16-21.33.57:478][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.04.16-21.33.57:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.04.16-21.33.57:484][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.04.16-21.33.57:484][  0]LogD3D11RHI:     GPU DeviceId: 0x73df (for the marketing name, search the web for "GPU Device Id")
+[2024.04.16-21.33.57:484][  0]LogWindows: EnumDisplayDevices:
+[2024.04.16-21.33.57:484][  0]LogWindows:    0. 'AMD Radeon RX 6700 XT' (P:1 D:1)
+[2024.04.16-21.33.57:484][  0]LogWindows:    1. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+[2024.04.16-21.33.57:485][  0]LogWindows:    2. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+[2024.04.16-21.33.57:485][  0]LogWindows:    3. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+[2024.04.16-21.33.57:485][  0]LogWindows:    4. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+[2024.04.16-21.33.57:485][  0]LogWindows:    5. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+[2024.04.16-21.33.57:485][  0]LogWindows:    6. 'AMD Radeon RX 6700 XT' (P:0 D:0)
+[2024.04.16-21.33.57:485][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2024.04.16-21.33.57:485][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 6700 XT
+[2024.04.16-21.33.57:485][  0]LogD3D11RHI:   Driver Version: AMD Software: Adrenalin Edition 22.20.27.09 (internal:31.0.12027.9001, unified:31.0.12027.9001)
+[2024.04.16-21.33.57:485][  0]LogD3D11RHI:      Driver Date: 3-30-2023
+[2024.04.16-21.33.57:485][  0]LogRHI: Texture pool is 8570 MB (70% of 12243 MB)
+[2024.04.16-21.33.57:576][  0]LogD3D11RHI: Async texture creation enabled
+[2024.04.16-21.33.57:589][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2024.04.16-21.33.57:589][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Intermediate/Shaders/WorkingDirectory/18976/).
+[2024.04.16-21.33.57:589][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/linxy/AppData/Local/Temp/UnrealShaderWorkingDir/B7D952BA47398E5BE9EABD9CECA9CE7D/'.
+[2024.04.16-21.33.57:760][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.04.16-21.33.57:768][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.04.16-21.33.57:777][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.04.16-21.33.57:786][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.04.16-21.33.57:795][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.04.16-21.33.57:803][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.04.16-21.33.57:812][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.04.16-21.33.57:821][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.04.16-21.33.57:825][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:875][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.04.16-21.33.57:876][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.04.16-21.33.57:927][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.04.16-21.33.57:927][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.04.16-21.33.57:942][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.04.16-21.33.57:942][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.04.16-21.33.57:950][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.04.16-21.33.57:958][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.04.16-21.33.57:966][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.04.16-21.33.57:975][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.04.16-21.33.57:981][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.04.16-21.33.57:981][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.04.16-21.33.58:015][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.04.16-21.33.58:015][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.04.16-21.33.58:015][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.04.16-21.33.58:505][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.04.16-21.33.58:543][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/linxy/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.04.16-21.33.58:543][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/linxy/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2024.04.16-21.33.58:543][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.04.16-21.33.58:543][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.04.16-21.33.58:543][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.04.16-21.33.58:543][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.04.16-21.33.58:553][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.04.16-21.33.58:565][  0]LogDerivedDataCache: Using Local data cache path C:/Users/linxy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.04.16-21.33.58:565][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.04.16-21.33.58:565][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.04.16-21.33.58:576][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.04.16-21.33.58:577][  0]LogSlate: Using FreeType 2.6.0
+[2024.04.16-21.33.58:578][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.04.16-21.33.58:633][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2024.04.16-21.33.58:832][  0]LogInit: Selected Device Profile: [Windows]
+[2024.04.16-21.33.58:862][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.04.16-21.33.58:865][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.04.16-21.33.58:865][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.04.16-21.33.58:865][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.04.16-21.33.58:865][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.04.16-21.33.58:922][  0]LogNetVersion: Pragyan_BattleGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 620336658)
+[2024.04.16-21.33.59:259][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.084011 seconds
+[2024.04.16-21.33.59:264][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2024.04.16-21.33.59:264][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2024.04.16-21.33.59:264][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.04.16-21.33.59:790][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.04.16-21.33.59:803][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.04.16-21.33.59:906][  0]SourceControl: Source control is disabled
+[2024.04.16-21.33.59:907][  0]SourceControl: Source control is disabled
+[2024.04.16-21.33.59:907][  0]SourceControl: Source control is disabled
+[2024.04.16-21.33.59:908][  0]SourceControl: Source control is disabled
+[2024.04.16-21.34.00:039][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.04.16-21.34.00:076][  0]LogOcInput: OculusInput pre-init called
+[2024.04.16-21.34.00:114][  0]LogEngine: Initializing Engine...
+[2024.04.16-21.34.00:115][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.04.16-21.34.00:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.04.16-21.34.00:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.04.16-21.34.00:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.04.16-21.34.00:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.04.16-21.34.00:226][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.04.16-21.34.00:234][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.04.16-21.34.00:261][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.04.16-21.34.00:271][  0]LogInit: FAudioDevice initialized.
+[2024.04.16-21.34.00:271][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.04.16-21.34.00:304][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/linxy/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.04.16-21.34.00:306][  0]LogInit: Texture streaming: Enabled
+[2024.04.16-21.34.00:317][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.04.16-21.34.00:326][  0]LogInit: Transaction tracking system initialized
+[2024.04.16-21.34.00:337][  0]BlueprintLog: New page: Editor Load
+[2024.04.16-21.34.00:378][  0]LocalizationService: Localization service is disabled
+[2024.04.16-21.34.00:538][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.04.16-21.34.00:538][  0]LogCook: Display: Mobile HDR setting 1
+[2024.04.16-21.34.00:538][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.04.16-21.34.00:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.04.16-21.34.00:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.04.16-21.34.00:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.04.16-21.34.00:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.04.16-21.34.00:607][  0]LogFileCache: Scanning file cache for directory 'C:/Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/' took 0.02s
+[2024.04.16-21.34.00:607][  0]SourceControl: Source control is disabled
+[2024.04.16-21.34.00:607][  0]Cmd: MAP LOAD FILE="../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Maps/Battlefront.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.04.16-21.34.00:607][  0]LightingResults: New page: Lighting Build
+[2024.04.16-21.34.00:609][  0]MapCheck: New page: Map Check
+[2024.04.16-21.34.00:609][  0]LightingResults: New page: Lighting Build
+[2024.04.16-21.34.01:625][  0]LogAIModule: Creating AISystem for world Battlefront
+[2024.04.16-21.34.01:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.16-21.34.01:647][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.16-21.34.01:703][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.918ms to complete.
+[2024.04.16-21.34.01:703][  0]LogFileHelpers: Loading map 'Battlefront' took 1.097
+[2024.04.16-21.34.01:839][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.34.01:846][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.34.01:851][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.34.01:856][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.34.01:875][  0]LogCollectionManager: Loaded 0 collections in 0.001016 seconds
+[2024.04.16-21.34.01:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Collections/' took 0.01s
+[2024.04.16-21.34.01:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Developers/linxy/Collections/' took 0.01s
+[2024.04.16-21.34.01:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Collections/' took 0.01s
+[2024.04.16-21.34.01:939][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2024.04.16-21.34.01:953][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2572 classes and 603 folders.
+[2024.04.16-21.34.01:965][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.04.16-21.34.02:260][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.04.16-21.34.02:283][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2024.04.16-21.34.02:506][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.04.16-21.34.02:508][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.04.16-21.34.02:525][  0]LogSlate: Took 0.005697 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.04.16-21.34.02:621][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2024.04.16-21.34.02:824][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.04.16-21.34.02:825][  0]LogLoad: (Engine Initialization) Total time: 7.73 seconds
+[2024.04.16-21.34.02:825][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.04.16-21.34.02:855][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.04.16-21.34.02:902][  0]LogSlate: Took 0.006740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.04.16-21.34.02:938][  1]LogAssetRegistry: Asset discovery search completed in 4.3266 seconds
+[2024.04.16-21.34.02:940][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2024.04.16-21.34.02:940][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2024.04.16-21.34.03:845][ 94]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.04.16-21.34.10:663][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.34.10:789][919]LogTemp: Repeating last play command: Selected Viewport
+[2024.04.16-21.34.10:797][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.34.10:797][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.16-21.34.10:811][919]PIE: New page: PIE session: Battlefront (Apr 16, 2024, 7:34:10 AM)
+[2024.04.16-21.34.10:816][919]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.04.16-21.34.10:828][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011624s)
+[2024.04.16-21.34.10:829][919]LogAIModule: Creating AISystem for world Battlefront
+[2024.04.16-21.34.10:829][919]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2024.04.16-21.34.10:829][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.012640s)
+[2024.04.16-21.34.10:861][919]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.04.16-21.34.10:869][919]LogInit: FAudioDevice initialized.
+[2024.04.16-21.34.10:912][919]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.04.16-21.34.10:914][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.04.16-14.34.10
+[2024.04.16-21.34.10:914][919]LogWorld: Bringing up level for play took: 0.000501
+[2024.04.16-21.34.10:935][919]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2024.04.16-21.34.10:935][919]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.16-21.34.10:935][919]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.16-21.34.10:935][919]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.04.16-21.34.10:945][919]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.04.16-21.34.10:945][919]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.469
+[2024.04.16-21.34.10:945][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.34.46:621][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.34.46:622][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.34.46:654][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.16-21.34.46:654][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.34.46:671][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.34.46:722][195]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.04.16-21.35.04:636][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.35.53:560][392]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character
+[2024.04.16-21.35.53:942][392]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2024.04.16-21.35.54:549][392]LogSlate: Took 0.004048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.16-21.35.54:679][393]LogSlate: Took 0.004488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.04.16-21.37.09:316][229]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Weapons/LaserrRifle.LaserrRifle
+[2024.04.16-21.37.12:810][615]LogSlate: Window 'LaserrRifle' being destroyed
+[2024.04.16-21.37.28:770][314]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.16-21.38.03:543][479]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Weapons/Playerprojectile.Playerprojectile
+[2024.04.16-21.38.03:765][480]LogRenderer: Reallocating scene render targets to support 1208x704 Format 10 NumSamples 1 (Frame:1).
+[2024.04.16-21.38.34:661][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.39.15:280][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.40.50:532][583]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.04.16-21.40.57:258][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.04.16-21.41.09:601][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.42.22:996][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.43.10:907][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.44.08:335][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2024.04.16-21.44.08:335][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2024.04.16-21.44.25:122][189]BlueprintLog: New page: Compile Playerprojectile
+[2024.04.16-21.44.26:708][357]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/PlayerprojectileC1C5C7244D713E99ED2DF6BBB62D7585.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Blueprints/Weapons/Playerprojectile.uasset'
+[2024.04.16-21.45.43:067][714]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/PlayerLaserMat.PlayerLaserMat
+[2024.04.16-21.45.43:071][714]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.45.43:337][714]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 18
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.04.16-21.45.43:352][714]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.04.16-21.45.44:323][813]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.04.16-21.45.44:330][814]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.45.44:330][814]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.45.44:330][814]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.45.44:339][815]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.45.44:356][817]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.45.44:356][817]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.45.44:364][818]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.45.44:482][831]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.45.44:536][834]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.45.44:553][835]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.45.44:679][844]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.45.44:727][847]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.45.45:256][864]MaterialEditorStats: Base pass shader: 99 instructions
+[2024.04.16-21.45.45:256][864]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2024.04.16-21.45.45:256][864]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2024.04.16-21.45.45:256][864]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.46.08:083][932]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.022
+[2024.04.16-21.46.08:084][932]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/PlayerLaserMat] ([1] browsable assets)...
+[2024.04.16-21.46.08:094][932]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/PlayerLaserMat.PlayerLaserMat]
+[2024.04.16-21.46.08:094][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/PlayerLaserMat]
+[2024.04.16-21.46.08:102][932]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/PlayerLaserMat_Auto1816D2FD04445A38DFFB2169B2F11BE32.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Materials/PlayerLaserMat_Auto1.uasset'
+[2024.04.16-21.46.08:103][932]LogFileHelpers: Auto-saving content packages took 0.019
+[2024.04.16-21.46.08:526][934]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 18
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.04.16-21.46.08:535][934]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.04.16-21.46.09:182][991]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.04.16-21.46.09:201][993]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.46.09:211][994]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.46.09:219][995]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.46.09:226][996]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.46.09:259][  0]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.46.09:267][  1]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.46.09:275][  2]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.46.09:318][  7]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.46.09:396][ 16]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.46.09:447][ 22]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.46.09:513][ 30]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.46.09:537][ 33]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.46.09:716][ 54]MaterialEditorStats: Base pass shader: 99 instructions
+[2024.04.16-21.46.09:716][ 54]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2024.04.16-21.46.09:716][ 54]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2024.04.16-21.46.09:716][ 54]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.46.10:419][138]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.10:445][138]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 28
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 27
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 26
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 25
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 24
+[2024.04.16-21.46.10:457][138]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.04.16-21.46.10:458][138]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.10:573][148]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.04.16-21.46.10:574][148]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.04.16-21.46.10:574][148]LogShaderCompilers: Display: Shaders left to compile 28
+[2024.04.16-21.46.10:597][151]LogShaderCompilers: Display: Shaders left to compile 27
+[2024.04.16-21.46.10:607][152]LogShaderCompilers: Display: Shaders left to compile 26
+[2024.04.16-21.46.10:614][153]LogShaderCompilers: Display: Shaders left to compile 25
+[2024.04.16-21.46.10:682][161]LogShaderCompilers: Display: Shaders left to compile 24
+[2024.04.16-21.46.10:689][162]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.04.16-21.46.10:707][164]LogShaderCompilers: Display: Shaders left to compile 22
+[2024.04.16-21.46.10:723][166]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.04.16-21.46.10:730][167]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.04.16-21.46.10:739][168]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.04.16-21.46.10:739][168]LogShaderCompilers: Display: Shaders left to compile 18
+[2024.04.16-21.46.10:749][169]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.04.16-21.46.10:990][197]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.04.16-21.46.11:007][199]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.04.16-21.46.11:007][199]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.04.16-21.46.11:031][202]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.04.16-21.46.11:074][207]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.46.11:098][210]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.46.11:207][219]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.46.11:251][224]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.46.11:260][225]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.46.11:304][230]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.46.11:312][231]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.46.11:397][241]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.46.11:423][244]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.46.11:450][247]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.46.11:474][250]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.46.11:565][261]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.46.11:844][294]MaterialEditorStats: Base pass shader: 61 instructions
+[2024.04.16-21.46.11:844][294]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 82 instructions
+[2024.04.16-21.46.11:844][294]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.46.11:844][294]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.46.13:526][495]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 28
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 27
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 26
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 25
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 24
+[2024.04.16-21.46.13:547][496]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.04.16-21.46.13:647][508]LogShaderCompilers: Display: Shaders left to compile 22
+[2024.04.16-21.46.13:656][509]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.04.16-21.46.13:665][510]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.04.16-21.46.13:673][511]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.04.16-21.46.13:673][511]LogShaderCompilers: Display: Shaders left to compile 18
+[2024.04.16-21.46.13:673][511]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.04.16-21.46.13:799][526]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.04.16-21.46.13:817][528]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.04.16-21.46.13:858][533]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.04.16-21.46.13:892][537]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.04.16-21.46.13:966][545]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.46.13:966][545]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.46.14:081][558]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.46.14:114][562]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.46.14:114][562]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.46.14:140][565]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.46.14:140][565]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.46.14:265][580]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.46.14:292][583]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.46.14:301][584]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.46.14:317][586]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.46.14:414][598]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.46.14:685][630]MaterialEditorStats: Base pass shader: 61 instructions
+[2024.04.16-21.46.14:685][630]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 82 instructions
+[2024.04.16-21.46.14:685][630]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.46.14:685][630]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.46.14:761][639]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.14:770][639]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.14:775][639]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.46.14:813][640]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.46.14:887][649]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.46.14:894][650]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.46.15:164][682]MaterialEditorStats: Base pass shader without light map: 41 instructions
+[2024.04.16-21.46.15:164][682]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.46.15:164][682]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.47.46:312][276]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.47.46:319][276]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.47.46:347][277]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.47.46:956][350]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.47.46:973][352]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.47.46:973][352]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.47.46:990][354]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.47.47:311][392]MaterialEditorStats: Base pass shader without light map: 41 instructions
+[2024.04.16-21.47.47:311][392]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.47.47:311][392]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.08:351][913]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.08:357][913]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.08:357][913]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.08:976][984]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.08:976][984]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.08:991][986]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.09:016][989]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.09:312][ 24]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.09:312][ 24]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.09:312][ 24]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.13:470][473]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.13:481][473]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.13:481][473]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.13:586][483]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.13:593][484]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.13:593][484]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.13:611][486]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.13:938][524]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.13:938][524]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.13:938][524]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.15:913][565]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.15:923][565]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.15:936][565]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.16:037][576]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.16:037][576]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.16:044][577]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.16:053][578]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.16:347][613]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.16:347][613]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.16:347][613]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.17:549][757]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.17:558][757]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.17:560][757]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.17:658][766]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.17:658][766]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.17:667][767]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.17:675][768]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.17:989][805]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.17:989][805]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.17:989][805]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.21:023][169]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.21:035][169]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.21:037][169]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.21:150][179]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.21:150][179]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.21:150][179]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.21:160][180]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.21:463][216]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.21:463][216]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.21:463][216]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.30:298][276]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.30:307][276]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.30:309][276]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.30:406][285]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.30:413][286]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.30:421][287]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.30:431][288]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.30:724][322]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.30:724][322]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.30:724][322]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.48.34:449][769]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.48.34:457][769]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.34:471][769]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.34:482][769]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.16-21.48.34:574][780]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.48.34:575][780]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.48.34:575][780]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.48.34:593][782]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.48.34:887][817]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.48.34:887][817]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.48.34:887][817]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.49.46:447][850]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.49.46:476][851]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.49.47:089][924]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.49.47:103][926]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.49.47:381][959]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.49.47:381][959]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.49.47:381][959]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.50.13:559][100]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.13:563][100]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.13:564][100]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.14:186][174]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.50.14:195][175]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.50.14:205][176]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.50.14:220][178]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.50.14:228][179]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.50.14:246][181]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.50.14:310][188]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.14:318][189]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.14:341][192]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.50.14:341][192]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.50.14:644][228]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.50.14:644][228]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.50.14:644][228]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.50.19:170][771]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.19:176][771]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.19:189][773]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.19:301][783]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.50.19:301][783]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.50.19:576][816]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.50.19:576][816]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.50.19:576][816]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.50.38:124][568]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.38:130][568]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.38:146][568]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.38:158][568]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.50.38:245][576]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.38:253][577]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.38:253][577]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.50.38:262][578]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.50.38:566][614]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.50.38:566][614]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.50.38:566][614]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.50.47:519][688]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.47:523][688]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.47:632][701]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.50.47:639][702]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.50.47:909][734]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.50.47:909][734]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.50.47:909][734]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.50.49:445][918]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.50.49:455][919]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.50.49:583][934]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.50.49:583][934]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.50.49:859][967]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2024.04.16-21.50.49:859][967]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.50.49:859][967]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.50.53:379][389]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2024.04.16-21.50.53:386][391]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.50.53:386][391]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.51.29:814][921]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.51.29:837][924]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.51.30:473][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.51.30:473][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.51.30:749][ 33]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2024.04.16-21.51.30:749][ 33]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.51.30:749][ 33]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.51.39:302][ 54]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.51.39:312][ 55]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.51.39:419][ 68]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.51.39:419][ 68]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.51.39:705][102]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.51.39:705][102]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.51.39:705][102]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.12:342][ 17]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.12:350][ 17]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.12:352][ 17]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.52.12:986][ 88]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.12:995][ 89]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.12:995][ 89]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.52.13:014][ 91]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.52.13:323][125]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.52.13:323][125]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.52.13:323][125]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.17:924][677]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.17:935][677]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.17:949][677]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.18:047][687]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.18:047][687]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.18:047][687]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.52.18:067][689]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.52.18:398][726]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.52.18:398][726]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.52.18:398][726]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.20:782][ 12]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.20:789][ 12]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.20:790][ 12]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.52.20:906][ 23]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.20:906][ 23]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.20:906][ 23]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.52.20:915][ 24]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.52.21:225][ 60]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.52.21:225][ 60]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.52.21:225][ 60]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.23:402][321]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.23:413][321]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.23:415][321]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.52.23:526][331]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.23:526][331]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.23:526][331]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.52.23:543][333]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.52.23:859][369]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.52.23:859][369]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.52.23:859][369]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.27:219][772]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.27:231][772]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.27:231][772]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2024.04.16-21.52.27:255][772]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.16-21.52.27:333][781]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.27:340][782]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.27:347][783]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.04.16-21.52.27:347][783]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.52.27:666][821]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.52.27:666][821]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.52.27:666][821]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.32:000][341]LogMaterialEditor: Applying material PlayerLaserMat
+[2024.04.16-21.52.32:354][341]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.04.16-21.52.32:366][341]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.04.16-21.52.32:381][341]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.32:390][341]LogMaterial: Display: Missing cached shader map for material PlayerLaserMat, compiling. 
+[2024.04.16-21.52.32:428][341]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy PlayerLaserMat, compiling. 
+[2024.04.16-21.52.32:591][341]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.04.16-21.52.32:592][341]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.04.16-21.52.32:592][341]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.04.16-21.52.32:592][341]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.04.16-21.52.32:592][341]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.04.16-21.52.32:593][341]TextureStreamingBuild: Display: Compiling optional shaders took 0.170 seconds.
+[2024.04.16-21.52.33:460][439]MaterialEditorStats: Base pass shader without light map: 42 instructions
+[2024.04.16-21.52.33:460][439]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2024.04.16-21.52.33:460][439]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.16-21.52.37:860][967]LogMaterialEditor: Saving and Compiling material PlayerLaserMat
+[2024.04.16-21.52.37:878][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PlayerLaserMat" FILE="../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Materials/PlayerLaserMat.uasset" SILENT=true
+[2024.04.16-21.52.37:884][967]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/PlayerLaserMat10FE65554EA9C3AE8A125B8490593B90.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Materials/PlayerLaserMat.uasset'
+[2024.04.16-21.54.16:128][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.55.10:660][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.04.16-21.55.24:968][455]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.16-21.56.02:897][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.56.25:001][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.56.34:830][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-21.56.34:963][317]LogTemp: Repeating last play command: Selected Viewport
+[2024.04.16-21.56.34:977][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.56.34:977][317]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.16-21.56.34:979][317]LogPlayLevel: [PlayLevel] Compiling Playerprojectile before play...
+[2024.04.16-21.56.35:119][317]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (1 blueprints)
+[2024.04.16-21.56.35:119][317]PIE: New page: PIE session: Battlefront (Apr 16, 2024, 7:56:35 AM)
+[2024.04.16-21.56.35:120][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.04.16-21.56.35:126][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005925s)
+[2024.04.16-21.56.35:127][317]LogAIModule: Creating AISystem for world Battlefront
+[2024.04.16-21.56.35:127][317]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2024.04.16-21.56.35:127][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.006984s)
+[2024.04.16-21.56.35:161][317]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.04.16-21.56.35:169][317]LogInit: FAudioDevice initialized.
+[2024.04.16-21.56.35:199][317]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.04.16-21.56.35:200][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.04.16-14.56.35
+[2024.04.16-21.56.35:200][317]LogWorld: Bringing up level for play took: 0.000621
+[2024.04.16-21.56.35:212][317]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.16-21.56.35:212][317]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.16-21.56.35:212][317]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.04.16-21.56.35:213][317]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.04.16-21.56.35:213][317]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.737
+[2024.04.16-21.56.35:213][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.57.01:793][489]Set new viewmode: Wireframe
+[2024.04.16-21.57.02:929][625]Set new viewmode: Wireframe
+[2024.04.16-21.57.03:572][702]Set new viewmode: Wireframe
+[2024.04.16-21.57.04:572][822]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.04.16-21.57.22:135][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.57.22:136][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.57.22:167][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.16-21.57.22:167][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.04.16-21.57.22:191][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.16-21.57.22:238][847]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.04.16-21.58.07:302][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.04.16-21.58.07:429][ 70]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Battlefront_Auto2863653E44772EAC3239F7781FE89F876.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Maps/Battlefront_Auto2.umap'
+[2024.04.16-21.58.07:431][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.122
+[2024.04.16-21.58.07:431][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.122
+[2024.04.16-21.58.07:432][ 70]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Weapons/Playerprojectile] ([1] browsable assets)...
+[2024.04.16-21.58.07:441][ 70]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Weapons/Playerprojectile.Playerprojectile]
+[2024.04.16-21.58.07:441][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Weapons/Playerprojectile]
+[2024.04.16-21.58.07:454][ 70]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Playerprojectile_Auto2473570164D55098E639B71863E111315.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Blueprints/Weapons/Playerprojectile_Auto2.uasset'
+[2024.04.16-21.58.07:456][ 70]LogFileHelpers: Auto-saving content packages took 0.024
+[2024.04.16-21.58.15:126][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-22.00.13:570][ 13]BlueprintLog: New page: Compile Playerprojectile
+[2024.04.16-22.00.14:315][ 82]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Playerprojectile87094FE1445EE2A9963CA3AE0F27647C.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Content/Blueprints/Weapons/Playerprojectile.uasset'
+[2024.04.16-22.01.59:304][917]LogSlate: Took 0.004894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.04.16-22.02.57:385][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.04.16-22.05.51:569][770]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Characters/CombatCharacter/UE4_Mannequin/Mesh/SK_Combat.SK_Combat
+[2024.04.16-22.05.51:589][770]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2024.04.16-22.05.51:609][770]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.16-22.05.51:621][770]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2024.04.16-22.05.51:673][770]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2024.04.16-22.05.51:840][770]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Characters/CombatCharacter/UE4_Mannequin/Mesh/UE4_Combat_Skeleton.UE4_Combat_Skeleton
+[2024.04.16-22.05.51:847][770]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.16-22.05.51:860][770]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2024.04.16-22.05.52:054][770]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2024.04.16-22.05.52:056][771]LogRenderer: Reallocating scene render targets to support 1208x880 Format 10 NumSamples 1 (Frame:1).
+[2024.04.16-22.06.14:992][743]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2024.04.16-22.06.15:043][744]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PragyanBattleGame
+[2024.04.16-22.06.15:043][744]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2024.04.16-22.06.15:043][744]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2024.04.16-22.06.15:043][744]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2024.04.16-22.06.15:043][744]LogTemp: BranchPath = DESKTOP-KKQV115/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-KKQV115/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2024.04.16-22.06.15:064][745]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\linxy\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2024.04.16-22.06.19:645][282]LogSlate: Window 'Project Settings' being destroyed
+[2024.04.16-22.08.11:954][940]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Battlefront_Auto330792C4B403B401C7957E68D8DDFDDF0.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Maps/Battlefront_Auto3.umap'
+[2024.04.16-22.08.11:957][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.126
+[2024.04.16-22.08.11:957][940]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.126
+[2024.04.16-22.08.11:958][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Battlefront_Character] ([1] browsable assets)...
+[2024.04.16-22.08.11:972][940]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character]
+[2024.04.16-22.08.11:972][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Battlefront_Character]
+[2024.04.16-22.08.11:999][940]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Battlefront_Character_Auto34B8C47404A1FEFDE15AE6F9D60BF587E.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Characters/Battlefront_Character_Auto3.uasset'
+[2024.04.16-22.08.12:000][940]LogFileHelpers: Auto-saving content packages took 0.043
+[2024.04.16-22.18.10:375][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.023
+[2024.04.16-22.18.10:376][472]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Battlefront_Character] ([1] browsable assets)...
+[2024.04.16-22.18.10:387][472]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character]
+[2024.04.16-22.18.10:387][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Battlefront_Character]
+[2024.04.16-22.18.10:421][472]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Battlefront_Character_Auto4FA109F2C401C2EB38294059CE902EA9C.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Characters/Battlefront_Character_Auto4.uasset'
+[2024.04.16-22.18.10:422][472]LogFileHelpers: Auto-saving content packages took 0.046
+[2024.04.16-22.21.29:988][355]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.04.16-22.28.10:681][305]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.023
+[2024.04.16-22.28.10:682][305]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Battlefront_Character] ([1] browsable assets)...
+[2024.04.16-22.28.10:690][305]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character]
+[2024.04.16-22.28.10:690][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Battlefront_Character]
+[2024.04.16-22.28.10:724][305]LogSavePackage: Moving '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Battlefront_Character_Auto564C47CCC48E262188B5EA1AF70C8FDD0.tmp' to '../../../../../../Users/linxy/OneDrive/Documents/Unreal Projects/Pragyan_BattleGame/Saved/Autosaves/Game/Characters/Battlefront_Character_Auto5.uasset'
+[2024.04.16-22.28.10:724][305]LogFileHelpers: Auto-saving content packages took 0.043
