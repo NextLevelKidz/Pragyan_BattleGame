@@ -1,4 +1,4 @@
-﻿Log file open, 07/16/24 14:25:53
+﻿Log file open, 07/23/24 14:09:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Pragyan_BattleGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.541334
+LogStats: Stats thread started at 0.543113
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.125s to configure plugins.
+LogStreaming: Display: Took  0.139s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=cb03fdef983e46f993288c4525cd0cff -AUTH_TYPE=exchangecode -epicapp=UE_4.20 -epicenv=Prod -EpicPortal  -epicusername="NLK Esports A" -epicuserid=b9960f57285b46b7938da2e96a6889bf -epiclocale=en -epicsandboxid=ue
+LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=1c5d82fb8b8947358dda46580669829a -AUTH_TYPE=exchangecode -epicapp=UE_4.20 -epicenv=Prod -EpicPortal -epicusername="NLK Esports A" -epicuserid=b9960f57285b46b7938da2e96a6889bf -epiclocale=en -epicsandboxid=ue
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -150,763 +150,528 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2024.07.16-21.25.53:882][  0]LogInit: Selected Device Profile: [Windows]
-[2024.07.16-21.25.53:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2024.07.16-21.25.53:895][  0]LogHAL: Display: Platform has ~ 16 GB [17068150784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2024.07.16-21.25.53:895][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2024.07.16-21.25.53:895][  0]LogInit: Going up to parent DeviceProfile []
-[2024.07.16-21.25.53:895][  0]LogInit: Computer: DESKTOP-JMJDT3S
-[2024.07.16-21.25.53:895][  0]LogInit: User: NLK
-[2024.07.16-21.25.53:895][  0]LogInit: CPU Page size=4096, Cores=6
-[2024.07.16-21.25.53:895][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2024.07.16-21.25.53:895][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2024.07.16-21.25.53:895][  0]LogMemory: Platform Memory Stats for Windows
-[2024.07.16-21.25.53:895][  0]LogMemory: Process Physical Memory: 103.66 MB used, 103.66 MB peak
-[2024.07.16-21.25.53:895][  0]LogMemory: Process Virtual Memory: 86.08 MB used, 86.08 MB peak
-[2024.07.16-21.25.53:895][  0]LogMemory: Physical Memory: 6851.29 MB used,  9426.17 MB free, 16277.46 MB total
-[2024.07.16-21.25.53:895][  0]LogMemory: Virtual Memory: 4649.20 MB used,  9426.17 MB free, 134217728.00 MB total
-[2024.07.16-21.25.53:924][  0]LogInit: Using OS detected language (en-US).
-[2024.07.16-21.25.53:924][  0]LogInit: Using OS detected locale (en-US).
-[2024.07.16-21.25.53:926][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2024.07.16-21.25.54:222][  0]LogStreaming: Display: Took  0.298s to InitEngineTextLocalization.
-[2024.07.16-21.25.54:223][  0]LogInit: Setting process to per monitor DPI aware
-[2024.07.16-21.25.54:243][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2024.07.16-21.25.54:243][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2024.07.16-21.25.54:412][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.07.16-21.25.54:412][  0]LogD3D11RHI: D3D11 adapters:
-[2024.07.16-21.25.54:546][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
-[2024.07.16-21.25.54:546][  0]LogD3D11RHI:       12110/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2024.07.16-21.25.54:548][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.07.16-21.25.54:548][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.07.16-21.25.54:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2024.07.16-21.25.54:555][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2024.07.16-21.25.54:555][  0]LogD3D11RHI:     GPU DeviceId: 0x2487 (for the marketing name, search the web for "GPU Device Id")
-[2024.07.16-21.25.54:555][  0]LogWindows: EnumDisplayDevices:
-[2024.07.16-21.25.54:555][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
-[2024.07.16-21.25.54:555][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2024.07.16-21.25.54:556][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2024.07.16-21.25.54:556][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2024.07.16-21.25.54:556][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2024.07.16-21.25.54:556][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
-[2024.07.16-21.25.54:556][  0]LogD3D11RHI:   Driver Version: 551.76 (internal:31.0.15.5176, unified:551.76)
-[2024.07.16-21.25.54:556][  0]LogD3D11RHI:      Driver Date: 3-1-2024
-[2024.07.16-21.25.54:556][  0]LogRHI: Texture pool is 8477 MB (70% of 12110 MB)
-[2024.07.16-21.25.54:630][  0]LogD3D11RHI: Async texture creation enabled
-[2024.07.16-21.25.54:646][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2024.07.16-21.25.54:647][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/NLK/Desktop/PragyanM Battle/Intermediate/Shaders/WorkingDirectory/6712/).
-[2024.07.16-21.25.54:648][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NLK/AppData/Local/Temp/UnrealShaderWorkingDir/85088D9B4CD75A8D8B5A45B9753D7D9D/'.
-[2024.07.16-21.25.54:893][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2024.07.16-21.25.54:905][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2024.07.16-21.25.54:917][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2024.07.16-21.25.54:928][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2024.07.16-21.25.54:938][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2024.07.16-21.25.54:949][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2024.07.16-21.25.54:964][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2024.07.16-21.25.54:978][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2024.07.16-21.25.54:983][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2024.07.16-21.25.55:051][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2024.07.16-21.25.55:107][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2024.07.16-21.25.55:107][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2024.07.16-21.25.55:126][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2024.07.16-21.25.55:126][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2024.07.16-21.25.55:141][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2024.07.16-21.25.55:150][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2024.07.16-21.25.55:161][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2024.07.16-21.25.55:170][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2024.07.16-21.25.55:178][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2024.07.16-21.25.55:178][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2024.07.16-21.25.55:221][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2024.07.16-21.25.55:221][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2024.07.16-21.25.55:221][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2024.07.16-21.25.55:774][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2024.07.16-21.25.55:813][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/NLK/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2024.07.16-21.25.55:813][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NLK/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2024.07.16-21.25.55:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NLK/Desktop/PragyanM Battle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2024.07.16-21.25.55:813][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2024.07.16-21.25.55:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NLK/Desktop/PragyanM Battle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2024.07.16-21.25.55:814][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2024.07.16-21.25.55:824][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2024.07.16-21.25.55:836][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NLK/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2024.07.16-21.25.55:836][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2024.07.16-21.25.55:836][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2024.07.16-21.25.55:849][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2024.07.16-21.25.55:850][  0]LogSlate: Using FreeType 2.6.0
-[2024.07.16-21.25.55:851][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.07.16-21.25.55:927][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
-[2024.07.16-21.25.56:176][  0]LogInit: Selected Device Profile: [Windows]
-[2024.07.16-21.25.56:266][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2024.07.16-21.25.56:269][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2024.07.16-21.25.56:269][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2024.07.16-21.25.56:269][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2024.07.16-21.25.56:269][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2024.07.16-21.25.56:283][  0]LogNetVersion: Pragyan_BattleGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 620336658)
-[2024.07.16-21.25.56:673][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.105676 seconds
-[2024.07.16-21.25.56:680][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2024.07.16-21.25.56:680][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2024.07.16-21.25.56:680][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2024.07.16-21.25.57:349][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2024.07.16-21.25.57:361][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2024.07.16-21.25.57:480][  0]SourceControl: Source control is disabled
-[2024.07.16-21.25.57:480][  0]SourceControl: Source control is disabled
-[2024.07.16-21.25.57:481][  0]SourceControl: Source control is disabled
-[2024.07.16-21.25.57:482][  0]SourceControl: Source control is disabled
-[2024.07.16-21.25.57:627][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2024.07.16-21.25.57:675][  0]LogOcInput: OculusInput pre-init called
-[2024.07.16-21.25.57:722][  0]LogEngine: Initializing Engine...
-[2024.07.16-21.25.57:723][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.07.16-21.25.57:724][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2024.07.16-21.25.57:724][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2024.07.16-21.25.57:724][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2024.07.16-21.25.57:724][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2024.07.16-21.25.57:859][  0]LogInit: Initializing FReadOnlyCVARCache
-[2024.07.16-21.25.57:869][  0]LogAIModule: Creating AISystem for world Untitled
-[2024.07.16-21.25.57:881][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2024.07.16-21.25.57:891][  0]LogInit: FAudioDevice initialized.
-[2024.07.16-21.25.57:891][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2024.07.16-21.25.57:928][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/NLK/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2024.07.16-21.25.57:931][  0]LogInit: Texture streaming: Enabled
-[2024.07.16-21.25.57:946][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2024.07.16-21.25.57:957][  0]LogInit: Transaction tracking system initialized
-[2024.07.16-21.25.57:973][  0]BlueprintLog: New page: Editor Load
-[2024.07.16-21.25.58:030][  0]LocalizationService: Localization service is disabled
-[2024.07.16-21.25.58:221][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2024.07.16-21.25.58:221][  0]LogCook: Display: Mobile HDR setting 1
-[2024.07.16-21.25.58:221][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2024.07.16-21.25.58:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2024.07.16-21.25.58:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2024.07.16-21.25.58:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2024.07.16-21.25.58:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2024.07.16-21.25.58:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Content/' took 0.02s
-[2024.07.16-21.25.58:309][  0]SourceControl: Source control is disabled
-[2024.07.16-21.25.58:309][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Maps/Battlefront.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2024.07.16-21.25.58:310][  0]LightingResults: New page: Lighting Build
-[2024.07.16-21.25.58:312][  0]MapCheck: New page: Map Check
-[2024.07.16-21.25.58:312][  0]LightingResults: New page: Lighting Build
-[2024.07.16-21.25.59:401][  0]LogAIModule: Creating AISystem for world Battlefront
-[2024.07.16-21.25.59:405][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2024.07.16-21.25.59:425][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2024.07.16-21.25.59:501][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.964ms to complete.
-[2024.07.16-21.25.59:501][  0]LogFileHelpers: Loading map 'Battlefront' took 1.191
-[2024.07.16-21.25.59:614][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.25.59:620][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.25.59:625][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.25.59:630][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.25.59:643][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
-[2024.07.16-21.25.59:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Saved/Collections/' took 0.01s
-[2024.07.16-21.25.59:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Content/Developers/NLK/Collections/' took 0.01s
-[2024.07.16-21.25.59:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Content/Collections/' took 0.01s
-[2024.07.16-21.25.59:687][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2024.07.16-21.25.59:695][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2572 classes and 603 folders.
-[2024.07.16-21.25.59:704][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2024.07.16-21.26.00:020][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2024.07.16-21.26.00:028][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2024.07.16-21.26.00:064][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.07.16-21.26.00:065][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2024.07.16-21.26.00:075][  0]LogSlate: Took 0.005490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2024.07.16-21.26.00:187][  0]LogRenderer: Reallocating scene render targets to support 1004x452 Format 10 NumSamples 1 (Frame:1).
-[2024.07.16-21.26.00:291][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2024.07.16-21.26.00:291][  0]LogLoad: (Engine Initialization) Total time: 8.48 seconds
-[2024.07.16-21.26.00:291][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2024.07.16-21.26.00:327][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2024.07.16-21.26.00:364][  0]LogSlate: Took 0.001045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2024.07.16-21.26.00:421][  1]LogAssetRegistry: Asset discovery search completed in 4.5168 seconds
-[2024.07.16-21.26.00:423][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2024.07.16-21.26.00:423][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2024.07.16-21.26.01:383][  5]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2024.07.16-21.26.03:633][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.26.03:758][284]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character
-[2024.07.16-21.26.04:153][284]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2024.07.16-21.26.04:819][284]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/M_Concrete_Tiles.M_Concrete_Tiles
-[2024.07.16-21.26.04:822][284]LogMaterial: Display: Missing cached shader map for material M_Concrete_Tiles, compiling. 
-[2024.07.16-21.26.05:125][284]LogMaterial: Display: Missing cached shader map for material M_Concrete_Tiles, compiling. 
-[2024.07.16-21.26.05:141][284]LogMaterial: Display: Missing cached shader map for material M_Concrete_Tiles, compiling. 
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 30
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 29
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 28
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 27
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 26
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 25
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 24
-[2024.07.16-21.26.05:163][284]LogShaderCompilers: Display: Shaders left to compile 23
-[2024.07.16-21.26.05:188][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
-[2024.07.16-21.26.05:191][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2024.07.16-21.26.05:195][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2024.07.16-21.26.05:199][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2024.07.16-21.26.05:205][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
-[2024.07.16-21.26.05:209][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2024.07.16-21.26.05:214][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2024.07.16-21.26.05:220][284]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2024.07.16-21.26.05:271][284]LogSlate: Took 0.005855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2024.07.16-21.26.05:656][285]LogSlate: Took 0.005980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2024.07.16-21.26.06:038][305]LogShaderCompilers: Display: Shaders left to compile 38
-[2024.07.16-21.26.06:058][307]LogShaderCompilers: Display: Shaders left to compile 37
-[2024.07.16-21.26.06:059][307]LogShaderCompilers: Display: Shaders left to compile 36
-[2024.07.16-21.26.06:059][307]LogShaderCompilers: Display: Shaders left to compile 35
-[2024.07.16-21.26.06:068][308]LogShaderCompilers: Display: Shaders left to compile 34
-[2024.07.16-21.26.06:100][311]LogShaderCompilers: Display: Shaders left to compile 33
-[2024.07.16-21.26.06:100][311]LogShaderCompilers: Display: Shaders left to compile 32
-[2024.07.16-21.26.06:100][311]LogShaderCompilers: Display: Shaders left to compile 31
-[2024.07.16-21.26.06:186][319]LogShaderCompilers: Display: Shaders left to compile 30
-[2024.07.16-21.26.06:310][326]LogShaderCompilers: Display: Shaders left to compile 29
-[2024.07.16-21.26.06:374][328]LogShaderCompilers: Display: Shaders left to compile 28
-[2024.07.16-21.26.06:491][334]LogShaderCompilers: Display: Shaders left to compile 27
-[2024.07.16-21.26.06:491][334]LogShaderCompilers: Display: Shaders left to compile 26
-[2024.07.16-21.26.06:507][335]LogShaderCompilers: Display: Shaders left to compile 25
-[2024.07.16-21.26.06:534][337]LogShaderCompilers: Display: Shaders left to compile 24
-[2024.07.16-21.26.06:534][337]LogShaderCompilers: Display: Shaders left to compile 23
-[2024.07.16-21.26.06:550][338]LogShaderCompilers: Display: Shaders left to compile 22
-[2024.07.16-21.26.06:598][339]LogShaderCompilers: Display: Shaders left to compile 21
-[2024.07.16-21.26.06:722][345]LogShaderCompilers: Display: Shaders left to compile 20
-[2024.07.16-21.26.06:740][346]LogShaderCompilers: Display: Shaders left to compile 19
-[2024.07.16-21.26.06:778][348]LogShaderCompilers: Display: Shaders left to compile 18
-[2024.07.16-21.26.06:914][357]LogShaderCompilers: Display: Shaders left to compile 17
-[2024.07.16-21.26.06:914][357]LogShaderCompilers: Display: Shaders left to compile 16
-[2024.07.16-21.26.06:929][358]LogShaderCompilers: Display: Shaders left to compile 15
-[2024.07.16-21.26.06:962][360]LogShaderCompilers: Display: Shaders left to compile 14
-[2024.07.16-21.26.06:962][360]LogShaderCompilers: Display: Shaders left to compile 13
-[2024.07.16-21.26.07:019][363]LogShaderCompilers: Display: Shaders left to compile 12
-[2024.07.16-21.26.07:110][366]LogShaderCompilers: Display: Shaders left to compile 11
-[2024.07.16-21.26.07:134][368]LogShaderCompilers: Display: Shaders left to compile 10
-[2024.07.16-21.26.07:134][368]LogShaderCompilers: Display: Shaders left to compile 9
-[2024.07.16-21.26.07:166][369]LogShaderCompilers: Display: Shaders left to compile 8
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: Base pass shader: 130 instructions
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: Base pass vertex shader: 36 instructions
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: Texture samplers: 8/16
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(7)
-[2024.07.16-21.26.07:173][369]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2024.07.16-21.26.07:203][371]LogShaderCompilers: Display: Shaders left to compile 7
-[2024.07.16-21.26.07:229][373]LogShaderCompilers: Display: Shaders left to compile 6
-[2024.07.16-21.26.07:262][375]LogShaderCompilers: Display: Shaders left to compile 5
-[2024.07.16-21.26.07:310][378]LogShaderCompilers: Display: Shaders left to compile 4
-[2024.07.16-21.26.07:327][379]LogShaderCompilers: Display: Shaders left to compile 3
-[2024.07.16-21.26.07:366][381]LogShaderCompilers: Display: Shaders left to compile 2
-[2024.07.16-21.26.07:445][386]LogShaderCompilers: Display: Shaders left to compile 1
-[2024.07.16-21.26.09:670][621]LogSlate: Window 'M_Concrete_Tiles' being destroyed
-[2024.07.16-21.26.17:566][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.26.20:513][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.26.24:169][312]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2024.07.16-21.26.25:146][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.26.29:120][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.26.37:179][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.26.59:634][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.27.09:932][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.27.13:519][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.27.27:343][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.27.31:966][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2024.07.16-21.27.49:475][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.27.51:446][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2024.07.16-21.27.59:759][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.28.01:006][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2024.07.16-21.28.02:609][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2024.07.16-21.28.03:881][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.28.08:233][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.28.20:544][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.28.46:310][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.28.55:303][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.28.56:178][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.29.05:490][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.29.08:481][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.29.14:309][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.29.15:282][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.29.16:473][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.29.17:137][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.29.22:266][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.29.25:607][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.29.31:671][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.29.49:913][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.29.54:438][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.29.58:631][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.29.59:784][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.30.02:320][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.30.05:781][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.30.12:509][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.30.16:582][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.30.24:882][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.30.28:888][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.30.30:316][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
-[2024.07.16-21.30.34:690][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2024.07.16-21.30.41:111][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.30.44:692][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2024.07.16-21.31.10:641][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.31.19:394][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.31.23:602][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.31.26:933][139]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2024.07.16-21.31.32:344][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2024.07.16-21.31.44:994][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.31.48:532][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2024.07.16-21.31.53:677][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.32.07:666][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2024.07.16-21.32.26:115][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.32.29:160][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2024.07.16-21.32.37:233][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.32.44:840][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2024.07.16-21.32.55:107][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.32.56:314][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2024.07.16-21.32.59:397][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.33.01:892][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2024.07.16-21.33.08:307][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.33.21:401][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2024.07.16-21.33.32:701][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2024.07.16-21.33.36:857][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.33.37:416][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.33.45:658][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2024.07.16-21.33.54:115][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.33.56:159][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2024.07.16-21.33.59:834][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.34.02:373][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2024.07.16-21.34.14:717][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.34.31:471][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.34.37:024][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.34.38:836][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.34.48:396][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.34.53:270][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.34.53:344][488]LogTemp: Repeating last play command: Selected Viewport
-[2024.07.16-21.34.53:358][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.34.53:358][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2024.07.16-21.34.53:380][488]PIE: New page: PIE session: Battlefront (Jul 16, 2024, 7:34:53 AM)
-[2024.07.16-21.34.53:389][488]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
-[2024.07.16-21.34.53:401][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012213s)
-[2024.07.16-21.34.53:402][488]LogAIModule: Creating AISystem for world Battlefront
-[2024.07.16-21.34.53:402][488]LogPlayLevel: PIE: World Init took: (0.000685s)
-[2024.07.16-21.34.53:402][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.013114s)
-[2024.07.16-21.34.53:437][488]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2024.07.16-21.34.53:445][488]LogInit: FAudioDevice initialized.
-[2024.07.16-21.34.53:488][488]LogLoad: Game class is 'BattlefrontGM_C'
-[2024.07.16-21.34.53:490][488]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.16-14.34.53
-[2024.07.16-21.34.53:490][488]LogWorld: Bringing up level for play took: 0.000804
-[2024.07.16-21.34.53:506][488]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2024.07.16-21.34.53:506][488]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2024.07.16-21.34.53:506][488]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2024.07.16-21.34.53:506][488]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2024.07.16-21.34.53:509][488]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2024.07.16-21.34.53:509][488]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.848
-[2024.07.16-21.34.53:510][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.35.05:082][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.35.05:090][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.35.05:123][872]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2024.07.16-21.35.05:123][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.35.05:146][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.35.05:184][874]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2024.07.16-21.35.16:460][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.35.21:426][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.35.23:941][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x401)
-[2024.07.16-21.35.29:066][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.35.34:149][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2024.07.16-21.35.46:623][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
-[2024.07.16-21.35.52:673][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.35.52:764][498]LogTemp: Repeating last play command: Selected Viewport
-[2024.07.16-21.35.52:776][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.35.52:776][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2024.07.16-21.35.52:776][498]PIE: New page: PIE session: Battlefront (Jul 16, 2024, 7:35:52 AM)
-[2024.07.16-21.35.52:776][498]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
-[2024.07.16-21.35.52:783][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006877s)
-[2024.07.16-21.35.52:784][498]LogAIModule: Creating AISystem for world Battlefront
-[2024.07.16-21.35.52:784][498]LogPlayLevel: PIE: World Init took: (0.000604s)
-[2024.07.16-21.35.52:784][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.007674s)
-[2024.07.16-21.35.52:814][498]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2024.07.16-21.35.52:821][498]LogInit: FAudioDevice initialized.
-[2024.07.16-21.35.52:851][498]LogLoad: Game class is 'BattlefrontGM_C'
-[2024.07.16-21.35.52:853][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.16-14.35.52
-[2024.07.16-21.35.52:853][498]LogWorld: Bringing up level for play took: 0.000788
-[2024.07.16-21.35.52:864][498]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2024.07.16-21.35.52:864][498]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2024.07.16-21.35.52:864][498]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2024.07.16-21.35.52:866][498]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2024.07.16-21.35.52:866][498]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.205
-[2024.07.16-21.35.52:867][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.36.13:880][ 16]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.36.13:881][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.36.13:914][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2024.07.16-21.36.13:914][ 16]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
-[2024.07.16-21.36.13:937][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.07.16-21.36.13:984][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2024.07.16-21.36.15:603][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2024.07.16-21.37.04:402][209]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character
-[2024.07.16-21.37.40:667][487]LogRenderer: Reallocating scene render targets to support 1004x712 Format 10 NumSamples 1 (Frame:1).
-[2024.07.16-21.37.55:742][847]LogMaterialEditor: Saving and Compiling material M_Concrete_Tiles
-[2024.07.16-21.37.55:778][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Concrete_Tiles" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Materials/M_Concrete_Tiles.uasset" SILENT=true
-[2024.07.16-21.37.55:804][847]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/M_Concrete_Tiles8F8283FD4CC986CD9C2BB1A3BDEF572B.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Materials/M_Concrete_Tiles.uasset'
-[2024.07.16-21.38.02:309][491]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character
-[2024.07.16-21.38.47:949][286]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Battlefront_Auto127559CFF4A1D713491006FB5C0A97CED.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/Maps/Battlefront_Auto1.umap'
-[2024.07.16-21.38.47:952][286]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.157
-[2024.07.16-21.38.47:953][286]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.157
-[2024.07.16-21.41.01:198][392]LogSlate: Window 'Color Picker' being destroyed
-[2024.07.16-21.42.17:552][566]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/NewWidgetBlueprint.NewWidgetBlueprint
-[2024.07.16-21.42.19:635][754]LogSlate: Window 'NewWidgetBlueprint*' being destroyed
-[2024.07.16-21.42.19:638][754]LogSlate: Window 'NewWidgetBlueprint*' being destroyed
-[2024.07.16-21.42.21:250][942]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/NewWidgetBlueprint.NewWidgetBlueprint
-[2024.07.16-21.42.25:311][359]LogSlate: Window 'NewWidgetBlueprint*' being destroyed
-[2024.07.16-21.42.25:314][359]LogSlate: Window 'NewWidgetBlueprint*' being destroyed
-[2024.07.16-21.42.50:262][718]LogMetaData: Removing '/Game/UI/HUD/GameplayHUD.SKEL_GameplayHUD_C' ref from Metadata '/Game/UI/HUD/NewWidgetBlueprint.PackageMetaData'
-[2024.07.16-21.42.50:262][718]LogMetaData: Removing '/Game/UI/HUD/GameplayHUD.GameplayHUD_C' ref from Metadata '/Game/UI/HUD/NewWidgetBlueprint.PackageMetaData'
-[2024.07.16-21.42.50:262][718]LogMetaData: Removing '/Game/UI/HUD/GameplayHUD.GameplayHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/HUD/NewWidgetBlueprint.PackageMetaData'
-[2024.07.16-21.42.50:262][718]LogMetaData: Removing '/Game/UI/HUD/GameplayHUD.GameplayHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/HUD/NewWidgetBlueprint.PackageMetaData'
-[2024.07.16-21.42.50:262][718]LogMetaData: Removing '/Game/UI/HUD/GameplayHUD.GameplayHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/HUD/NewWidgetBlueprint.PackageMetaData'
-[2024.07.16-21.42.50:279][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/GameplayHUD" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/UI/HUD/GameplayHUD.uasset" SILENT=true
-[2024.07.16-21.42.50:284][718]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/GameplayHUD1AC3819F4C67114017A1A49BCAF7B491.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/UI/HUD/GameplayHUD.uasset'
-[2024.07.16-21.42.53:035][ 28]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/GameplayHUD.GameplayHUD
-[2024.07.16-21.42.55:933][322]LogSlate: Window 'GameplayHUD' being destroyed
-[2024.07.16-21.48.51:028][641]LogSlate: Window 'Color Picker' being destroyed
-[2024.07.16-21.50.20:945][ 52]LogSlate: Window 'Color Picker' being destroyed
-[2024.07.16-21.51.00:149][452]LogSlate: Window 'Color Picker' being destroyed
-[2024.07.16-21.53.12:879][785]LogSlate: Window 'Save Asset As' being destroyed
-[2024.07.16-21.53.30:998][697]LogTexture: Display: Building textures: Crosshair1 (AutoDXT, 20X20)
-[2024.07.16-21.53.35:005][164]LogTexture: Display: Building textures: Crosshair2 (AutoDXT, 20X20)
-[2024.07.16-21.53.38:024][514]LogTexture: Display: Building textures: Crosshair3 (AutoDXT, 20X20)
-[2024.07.16-21.54.12:681][626]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Battlefront_Auto2288864194D2B37D957E50D82BA4D8442.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/Maps/Battlefront_Auto2.umap'
-[2024.07.16-21.54.12:684][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.149
-[2024.07.16-21.54.12:684][626]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.149
-[2024.07.16-21.54.12:687][626]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUD/GameplayHUD] ([1] browsable assets)...
-[2024.07.16-21.54.12:687][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUD/GameplayHUD]
-[2024.07.16-21.54.12:687][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/GameplayHUD" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2024.07.16-21.54.12:696][626]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/GameplayHUD_Auto23C741BC14EA8E8B9381EA7AD4A86A2C2.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto2.uasset'
-[2024.07.16-21.54.12:697][626]LogFileHelpers: Auto-saving content packages took 0.012
-[2024.07.16-21.55.05:204][ 99]LogSlate: Window 'Color Picker' being destroyed
-[2024.07.16-21.57.00:232][373]LogSlate: Window 'Color Picker' being destroyed
-[2024.07.16-21.59.36:634][958]LogEditorTransaction: Undo Move Widget
-[2024.07.16-22.03.38:227][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Battlefront" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Maps/Battlefront.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2024.07.16-22.03.38:370][474]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Battlefront006ABD594344F5CCD19FD5AD03635B8C.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Maps/Battlefront.umap'
-[2024.07.16-22.03.38:392][474]LogFileHelpers: Saving map 'Battlefront' took 0.257
-[2024.07.16-22.03.38:394][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/GameplayHUD" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/UI/HUD/GameplayHUD.uasset" SILENT=true
-[2024.07.16-22.03.38:405][474]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/GameplayHUD7F19267D47CE8339873EE3A3D210A71A.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/UI/HUD/GameplayHUD.uasset'
-[2024.07.16-22.03.41:104][778]LogSlate: Window 'Pragyan_BattleGame - Unreal Editor' being destroyed
-[2024.07.16-22.03.41:261][779]Cmd: QUIT_EDITOR
-[2024.07.16-22.03.41:654][779]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2024.07.16-22.03.41:662][779]LogExit: Preparing to exit.
-[2024.07.16-22.03.42:597][779]LogExit: Editor shut down
-[2024.07.16-22.03.42:597][779]LogExit: Transaction tracking system shut down
-[2024.07.16-22.03.43:058][779]LogExit: Object subsystem successfully closed.
-[2024.07.16-22.03.43:081][779]LogShaderCompilers: Display: Shaders left to compile 0
-[2024.07.16-22.03.43:084][779]LogD3D11RHI: Shutdown
-[2024.07.16-22.03.43:084][779]LogD3D11RHI: CleanupD3DDevice
-[2024.07.16-22.03.43:085][779]LogD3D11RHI: ~FD3D11DynamicRHI
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module SequencerWidgets (618)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module Voice (614)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2024.07.16-22.03.43:103][779]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2024.07.16-22.03.43:104][779]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2024.07.16-22.03.43:299][779]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2024.07.16-22.03.43:352][779]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2024.07.16-22.03.43:356][779]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2024.07.16-22.03.43:412][779]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2024.07.16-22.03.43:413][779]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2024.07.16-22.03.43:413][779]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2024.07.16-22.03.43:413][779]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2024.07.16-22.03.43:413][779]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2024.07.16-22.03.43:413][779]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2024.07.16-22.03.43:413][779]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2024.07.16-22.03.43:415][779]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2024.07.16-22.03.43:416][779]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2024.07.16-22.03.43:517][779]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2024.07.16-22.03.43:617][779]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2024.07.16-22.03.43:618][779]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2024.07.16-22.03.43:618][779]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2024.07.16-22.03.43:618][779]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2024.07.16-22.03.43:619][779]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2024.07.16-22.03.43:619][779]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2024.07.16-22.03.43:619][779]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2024.07.16-22.03.43:619][779]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2024.07.16-22.03.43:619][779]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2024.07.16-22.03.43:619][779]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2024.07.16-22.03.43:621][779]LogModuleManager: Shutting down and abandoning module Media (243)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2024.07.16-22.03.43:626][779]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module Core (188)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2024.07.16-22.03.43:628][779]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2024.07.16-22.03.43:684][779]LogDerivedDataCache: Shutdown
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2024.07.16-22.03.43:684][779]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2024.07.16-22.03.43:685][779]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2024.07.16-22.03.43:686][779]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2024.07.16-22.03.43:686][779]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2024.07.16-22.03.43:692][779]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2024.07.16-22.03.43:693][779]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2024.07.16-22.03.43:693][779]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2024.07.16-22.03.43:693][779]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2024.07.16-22.03.43:693][779]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2024.07.16-22.03.43:713][779]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2024.07.16-22.03.43:713][779]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2024.07.16-22.03.43:713][779]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4534938-416E-C04A-5979-66A58DC59E9C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=476fcf6b48dcdfdd97f9a2bba949d042%7Cb9960f57285b46b7938da2e96a6889bf%7C7af629d7-14b4-44da-b6eb-7bb2868e6d3e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2024.07.16-22.03.43:718][779]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2024.07.16-22.03.43:720][779]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2024.07.16-22.03.43:721][779]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2024.07.16-22.03.43:721][779]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2024.07.16-22.03.43:722][779]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2024.07.16-22.03.43:728][779]LogExit: Exiting.
-[2024.07.16-22.03.43:743][779]Log file closed, 07/16/24 15:03:43
+[2024.07.23-21.09.07:996][  0]LogInit: Selected Device Profile: [Windows]
+[2024.07.23-21.09.07:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.07.23-21.09.08:009][  0]LogHAL: Display: Platform has ~ 16 GB [17068150784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.07.23-21.09.08:009][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2024.07.23-21.09.08:009][  0]LogInit: Going up to parent DeviceProfile []
+[2024.07.23-21.09.08:010][  0]LogInit: Computer: DESKTOP-JMJDT3S
+[2024.07.23-21.09.08:010][  0]LogInit: User: NLK
+[2024.07.23-21.09.08:010][  0]LogInit: CPU Page size=4096, Cores=6
+[2024.07.23-21.09.08:010][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.07.23-21.09.08:010][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2024.07.23-21.09.08:010][  0]LogMemory: Platform Memory Stats for Windows
+[2024.07.23-21.09.08:010][  0]LogMemory: Process Physical Memory: 103.71 MB used, 103.71 MB peak
+[2024.07.23-21.09.08:010][  0]LogMemory: Process Virtual Memory: 85.97 MB used, 85.97 MB peak
+[2024.07.23-21.09.08:010][  0]LogMemory: Physical Memory: 7228.38 MB used,  9049.08 MB free, 16277.46 MB total
+[2024.07.23-21.09.08:010][  0]LogMemory: Virtual Memory: 4649.20 MB used,  9049.08 MB free, 134217728.00 MB total
+[2024.07.23-21.09.08:044][  0]LogInit: Using OS detected language (en-US).
+[2024.07.23-21.09.08:045][  0]LogInit: Using OS detected locale (en-US).
+[2024.07.23-21.09.08:045][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2024.07.23-21.09.08:395][  0]LogStreaming: Display: Took  0.350s to InitEngineTextLocalization.
+[2024.07.23-21.09.08:395][  0]LogInit: Setting process to per monitor DPI aware
+[2024.07.23-21.09.08:421][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.07.23-21.09.08:421][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.07.23-21.09.08:580][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.07.23-21.09.08:580][  0]LogD3D11RHI: D3D11 adapters:
+[2024.07.23-21.09.08:713][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2024.07.23-21.09.08:713][  0]LogD3D11RHI:       12110/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2024.07.23-21.09.08:715][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.07.23-21.09.08:715][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.07.23-21.09.08:715][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.07.23-21.09.08:722][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.07.23-21.09.08:722][  0]LogD3D11RHI:     GPU DeviceId: 0x2487 (for the marketing name, search the web for "GPU Device Id")
+[2024.07.23-21.09.08:722][  0]LogWindows: EnumDisplayDevices:
+[2024.07.23-21.09.08:723][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2024.07.23-21.09.08:723][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2024.07.23-21.09.08:723][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2024.07.23-21.09.08:723][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2024.07.23-21.09.08:723][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.07.23-21.09.08:723][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2024.07.23-21.09.08:723][  0]LogD3D11RHI:   Driver Version: 551.76 (internal:31.0.15.5176, unified:551.76)
+[2024.07.23-21.09.08:723][  0]LogD3D11RHI:      Driver Date: 3-1-2024
+[2024.07.23-21.09.08:723][  0]LogRHI: Texture pool is 8477 MB (70% of 12110 MB)
+[2024.07.23-21.09.08:796][  0]LogD3D11RHI: Async texture creation enabled
+[2024.07.23-21.09.08:808][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.07.23-21.09.08:810][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/NLK/Desktop/PragyanM Battle/Intermediate/Shaders/WorkingDirectory/20412/).
+[2024.07.23-21.09.08:810][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NLK/AppData/Local/Temp/UnrealShaderWorkingDir/237BDAA547B6444CFFB610AA1C8D6A20/'.
+[2024.07.23-21.09.09:065][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.07.23-21.09.09:074][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.07.23-21.09.09:085][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.07.23-21.09.09:095][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.07.23-21.09.09:105][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.07.23-21.09.09:114][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.07.23-21.09.09:124][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.07.23-21.09.09:134][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.07.23-21.09.09:139][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:194][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.07.23-21.09.09:196][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.07.23-21.09.09:250][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.07.23-21.09.09:250][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.07.23-21.09.09:267][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.07.23-21.09.09:267][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.07.23-21.09.09:276][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.07.23-21.09.09:286][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.07.23-21.09.09:295][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.07.23-21.09.09:306][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.07.23-21.09.09:312][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.07.23-21.09.09:312][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.07.23-21.09.09:358][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.07.23-21.09.09:358][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.07.23-21.09.09:358][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.07.23-21.09.09:901][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.07.23-21.09.09:940][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/NLK/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.07.23-21.09.09:940][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NLK/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2024.07.23-21.09.09:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NLK/Desktop/PragyanM Battle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.07.23-21.09.09:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.07.23-21.09.09:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NLK/Desktop/PragyanM Battle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.07.23-21.09.09:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.07.23-21.09.09:951][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.07.23-21.09.09:963][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NLK/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.07.23-21.09.09:963][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.07.23-21.09.09:963][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.07.23-21.09.09:976][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.07.23-21.09.09:977][  0]LogSlate: Using FreeType 2.6.0
+[2024.07.23-21.09.09:977][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.07.23-21.09.10:043][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2024.07.23-21.09.10:275][  0]LogInit: Selected Device Profile: [Windows]
+[2024.07.23-21.09.10:367][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.07.23-21.09.10:369][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.07.23-21.09.10:369][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.07.23-21.09.10:369][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.07.23-21.09.10:369][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.07.23-21.09.10:380][  0]LogNetVersion: Pragyan_BattleGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 620336658)
+[2024.07.23-21.09.10:754][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.088516 seconds
+[2024.07.23-21.09.10:759][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2024.07.23-21.09.10:759][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2024.07.23-21.09.10:759][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.07.23-21.09.11:429][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.07.23-21.09.11:441][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.07.23-21.09.11:564][  0]SourceControl: Source control is disabled
+[2024.07.23-21.09.11:564][  0]SourceControl: Source control is disabled
+[2024.07.23-21.09.11:565][  0]SourceControl: Source control is disabled
+[2024.07.23-21.09.11:566][  0]SourceControl: Source control is disabled
+[2024.07.23-21.09.11:713][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.07.23-21.09.11:759][  0]LogOcInput: OculusInput pre-init called
+[2024.07.23-21.09.11:805][  0]LogEngine: Initializing Engine...
+[2024.07.23-21.09.11:805][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.07.23-21.09.11:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.07.23-21.09.11:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.07.23-21.09.11:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.07.23-21.09.11:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.07.23-21.09.11:941][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.07.23-21.09.11:951][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.07.23-21.09.11:964][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.09.11:973][  0]LogInit: FAudioDevice initialized.
+[2024.07.23-21.09.11:974][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.07.23-21.09.12:009][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/NLK/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.07.23-21.09.12:012][  0]LogInit: Texture streaming: Enabled
+[2024.07.23-21.09.12:028][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.07.23-21.09.12:041][  0]LogInit: Transaction tracking system initialized
+[2024.07.23-21.09.12:057][  0]BlueprintLog: New page: Editor Load
+[2024.07.23-21.09.12:118][  0]LocalizationService: Localization service is disabled
+[2024.07.23-21.09.12:315][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.07.23-21.09.12:315][  0]LogCook: Display: Mobile HDR setting 1
+[2024.07.23-21.09.12:315][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.07.23-21.09.12:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.07.23-21.09.12:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.07.23-21.09.12:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.07.23-21.09.12:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.07.23-21.09.12:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Content/' took 0.02s
+[2024.07.23-21.09.12:407][  0]SourceControl: Source control is disabled
+[2024.07.23-21.09.12:407][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Maps/Battlefront.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.07.23-21.09.12:408][  0]LightingResults: New page: Lighting Build
+[2024.07.23-21.09.12:410][  0]MapCheck: New page: Map Check
+[2024.07.23-21.09.12:410][  0]LightingResults: New page: Lighting Build
+[2024.07.23-21.09.13:538][  0]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.09.13:542][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.07.23-21.09.13:562][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.07.23-21.09.13:637][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.302ms to complete.
+[2024.07.23-21.09.13:637][  0]LogFileHelpers: Loading map 'Battlefront' took 1.229
+[2024.07.23-21.09.13:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.09.13:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.09.13:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.09.13:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.09.13:788][  0]LogCollectionManager: Loaded 0 collections in 0.001433 seconds
+[2024.07.23-21.09.13:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Saved/Collections/' took 0.01s
+[2024.07.23-21.09.13:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Content/Developers/NLK/Collections/' took 0.01s
+[2024.07.23-21.09.13:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NLK/Desktop/PragyanM Battle/Content/Collections/' took 0.01s
+[2024.07.23-21.09.13:834][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2024.07.23-21.09.13:843][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2572 classes and 603 folders.
+[2024.07.23-21.09.13:852][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.07.23-21.09.14:194][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.07.23-21.09.14:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2024.07.23-21.09.14:238][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.23-21.09.14:240][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.23-21.09.14:251][  0]LogSlate: Took 0.006406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.23-21.09.14:369][  0]LogRenderer: Reallocating scene render targets to support 1004x452 Format 10 NumSamples 1 (Frame:1).
+[2024.07.23-21.09.14:505][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.07.23-21.09.14:505][  0]LogLoad: (Engine Initialization) Total time: 8.68 seconds
+[2024.07.23-21.09.14:505][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.07.23-21.09.14:618][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.07.23-21.09.14:656][  0]LogSlate: Took 0.000931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.23-21.09.14:667][  1]LogAssetRegistry: Asset discovery search completed in 4.6475 seconds
+[2024.07.23-21.09.14:669][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2024.07.23-21.09.14:669][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2024.07.23-21.09.15:525][ 96]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.23-21.09.24:841][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
+[2024.07.23-21.09.25:771][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.09.41:073][135]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2024.07.23-21.10.20:951][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.10.33:356][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.10.38:487][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
+[2024.07.23-21.10.42:141][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.10.45:113][728]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2024.07.23-21.10.50:391][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.10.52:563][609]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2024.07.23-21.11.00:506][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.11.00:655][554]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character
+[2024.07.23-21.11.01:058][554]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2024.07.23-21.11.01:700][554]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/HUD/GameplayHUD.GameplayHUD
+[2024.07.23-21.11.01:982][554]LogSlate: Took 0.006386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.23-21.11.02:228][555]LogSlate: Took 0.005090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.07.23-21.11.09:576][157]LogSlate: Window 'GameplayHUD' being destroyed
+[2024.07.23-21.12.29:193][864]LogEditorTransaction: Undo Edit Padding
+[2024.07.23-21.13.39:856][ 73]LogEditorTransaction: Undo Resize Widget
+[2024.07.23-21.18.03:807][ 21]LogSlate: Took 0.011634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.07.23-21.18.32:793][ 13]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2024.07.23-21.18.33:213][ 54]Cmd: TRANSACTION UNDO
+[2024.07.23-21.18.33:213][ 54]LogEditorTransaction: Undo Edit Vertical Alignment
+[2024.07.23-21.18.33:545][ 90]Cmd: TRANSACTION UNDO
+[2024.07.23-21.18.33:545][ 90]LogEditorTransaction: Undo Rename Widget
+[2024.07.23-21.18.34:270][174]Cmd: TRANSACTION UNDO
+[2024.07.23-21.18.34:270][174]LogEditorTransaction: Undo Rename Widget
+[2024.07.23-21.21.29:494][530]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.23-21.22.41:637][661]LogBlueprint: Warning: [Compiler ] Leak Detected!  TextBlock_1202 ( Text ) still has living Slate widgets, it or the parent PlayersKills ( Horizontal Box ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2024.07.23-21.24.05:398][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.036
+[2024.07.23-21.24.05:400][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUD/GameplayHUD] ([1] browsable assets)...
+[2024.07.23-21.24.05:400][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUD/GameplayHUD]
+[2024.07.23-21.24.05:400][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/GameplayHUD" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.07.23-21.24.05:419][840]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/GameplayHUD_Auto124360FA749593E9EDB3123B4CD2C2450.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto1.uasset'
+[2024.07.23-21.24.05:421][840]LogFileHelpers: Auto-saving content packages took 0.022
+[2024.07.23-21.24.28:933][911]LogBlueprint: Warning: [Compiler ] Leak Detected!  PlayerCount ( Text ) still has living Slate widgets, it or the parent PlayersKills ( Horizontal Box ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2024.07.23-21.25.09:293][868]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.23-21.25.23:605][523]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.23-21.25.35:314][921]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.23-21.28.52:213][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.28.56:087][834]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/All_Levels/MyGameInstance.MyGameInstance
+[2024.07.23-21.29.13:406][ 40]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/All_Levels/MyGameInstance.MyGameInstance
+[2024.07.23-21.34.06:113][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.025
+[2024.07.23-21.34.06:115][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUD/GameplayHUD] ([1] browsable assets)...
+[2024.07.23-21.34.06:115][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUD/GameplayHUD]
+[2024.07.23-21.34.06:115][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/GameplayHUD" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.07.23-21.34.06:128][384]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/GameplayHUD_Auto25279487B4AC6D7847E13D9A91053676F.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto2.uasset'
+[2024.07.23-21.34.06:131][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/All_Levels/MyGameInstance] ([1] browsable assets)...
+[2024.07.23-21.34.06:131][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/All_Levels/MyGameInstance]
+[2024.07.23-21.34.06:140][384]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/MyGameInstance_Auto2826EF48C43656C9A6EFA2DAD90962E01.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/Blueprints/All_Levels/MyGameInstance_Auto2.uasset'
+[2024.07.23-21.34.06:141][384]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.07.23-21.34.25:216][892]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Battlefrront/BattlefrontPC.BattlefrontPC
+[2024.07.23-21.34.30:840][259]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Battlefrront/BattlefrontPC.BattlefrontPC
+[2024.07.23-21.37.47:711][345]BlueprintLog: New page: Compile BattlefrontPC
+[2024.07.23-21.37.47:714][345]LogBlueprint: Warning: [Compiler BattlefrontPC] Could not find the function 'ShowGameplayHUD' called from  Show Gameplay HUD
+[2024.07.23-21.37.47:834][345]LogBlueprint: Warning: [Compiler BattlefrontPC] [1722.01] Compile of BattlefrontPC successful, but with 1 Warning(s) [in 121 ms] (/Game/Blueprints/Battlefrront/BattlefrontPC.BattlefrontPC)
+[2024.07.23-21.39.12:681][151]BlueprintLog: New page: Compile MyGameInstance
+[2024.07.23-21.39.13:451][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/All_Levels/MyGameInstance" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Blueprints/All_Levels/MyGameInstance.uasset" SILENT=true
+[2024.07.23-21.39.13:462][237]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/MyGameInstanceDE4D8DD74C2EA8BEA5EFC8B852958CC5.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Blueprints/All_Levels/MyGameInstance.uasset'
+[2024.07.23-21.39.15:255][450]BlueprintLog: New page: Compile BattlefrontPC
+[2024.07.23-21.39.16:219][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Battlefrront/BattlefrontPC" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Blueprints/Battlefrront/BattlefrontPC.uasset" SILENT=true
+[2024.07.23-21.39.16:230][550]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/BattlefrontPC67085CE8428F3469EAE4D4899CB8851E.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Blueprints/Battlefrront/BattlefrontPC.uasset'
+[2024.07.23-21.39.29:423][111]BlueprintLog: New page: Compile MyGameInstance
+[2024.07.23-21.39.29:955][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/All_Levels/MyGameInstance" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Blueprints/All_Levels/MyGameInstance.uasset" SILENT=true
+[2024.07.23-21.39.29:965][169]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/MyGameInstance2CA7F2C44D70E8BC0AF85E9FB13D4114.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Content/Blueprints/All_Levels/MyGameInstance.uasset'
+[2024.07.23-21.39.36:263][910]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.39.36:285][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.39.36:286][910]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.23-21.39.36:287][910]LogPlayLevel: [PlayLevel] Compiling GameplayHUD before play...
+[2024.07.23-21.39.36:417][910]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2024.07.23-21.39.36:430][910]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:39:36 AM)
+[2024.07.23-21.39.36:433][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.39.36:446][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012167s)
+[2024.07.23-21.39.36:447][910]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.39.36:447][910]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2024.07.23-21.39.36:447][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.013008s)
+[2024.07.23-21.39.36:479][910]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.39.36:486][910]LogInit: FAudioDevice initialized.
+[2024.07.23-21.39.36:530][910]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.39.36:531][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.39.36
+[2024.07.23-21.39.36:531][910]LogWorld: Bringing up level for play took: 0.000926
+[2024.07.23-21.39.36:553][910]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2024.07.23-21.39.36:553][910]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.39.36:553][910]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.39.36:553][910]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.39.36:556][910]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.39.36:558][910]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.725
+[2024.07.23-21.39.36:558][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.39.56:111][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.39.56:120][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.39.56:154][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.39.56:154][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.39.56:178][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.39.56:219][650]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.07.23-21.40.26:448][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.40.26:551][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.40.26:565][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.40.26:565][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.23-21.40.26:565][ 29]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:40:26 AM)
+[2024.07.23-21.40.26:566][ 29]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.40.26:574][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007869s)
+[2024.07.23-21.40.26:575][ 29]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.40.26:576][ 29]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2024.07.23-21.40.26:576][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.009550s)
+[2024.07.23-21.40.26:606][ 29]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.40.26:613][ 29]LogInit: FAudioDevice initialized.
+[2024.07.23-21.40.26:645][ 29]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.40.26:646][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.40.26
+[2024.07.23-21.40.26:646][ 29]LogWorld: Bringing up level for play took: 0.000775
+[2024.07.23-21.40.26:660][ 29]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.40.26:660][ 29]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.40.26:660][ 29]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.40.26:662][ 29]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.40.26:662][ 29]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.829
+[2024.07.23-21.40.26:662][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.40.35:087][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.40.35:088][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.40.35:124][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.40.35:125][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.40.35:147][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.40.35:193][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.07.23-21.40.47:182][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.42.09:795][239]LogRenderer: Reallocating scene render targets to support 1004x712 Format 10 NumSamples 1 (Frame:1).
+[2024.07.23-21.42.16:108][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.42.18:003][220]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.42.18:017][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.42.18:017][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.23-21.42.18:017][220]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:42:18 AM)
+[2024.07.23-21.42.18:018][220]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.42.18:025][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007899s)
+[2024.07.23-21.42.18:026][220]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.42.18:026][220]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2024.07.23-21.42.18:026][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.008752s)
+[2024.07.23-21.42.18:057][220]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.42.18:063][220]LogInit: FAudioDevice initialized.
+[2024.07.23-21.42.18:094][220]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.42.18:095][220]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.42.18
+[2024.07.23-21.42.18:095][220]LogWorld: Bringing up level for play took: 0.000775
+[2024.07.23-21.42.18:106][220]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.42.18:106][220]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.42.18:106][220]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.42.18:109][220]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.42.18:109][220]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.276
+[2024.07.23-21.42.18:109][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.43.05:142][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.43.05:143][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.43.05:173][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.43.05:173][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.43.05:198][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.43.05:247][862]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.07.23-21.43.05:765][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.44.30:860][ 66]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.07.23-21.44.46:702][937]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.44.46:718][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.44.46:718][937]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.23-21.44.46:735][937]LogPlayLevel: [PlayLevel] Compiling Battlefront_Character before play...
+[2024.07.23-21.44.46:888][937]LogPlayLevel: PlayLevel: Blueprint regeneration took 169 ms (1 blueprints)
+[2024.07.23-21.44.46:888][937]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:44:46 AM)
+[2024.07.23-21.44.46:888][937]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.44.46:895][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007177s)
+[2024.07.23-21.44.46:896][937]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.44.46:896][937]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2024.07.23-21.44.46:896][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.007975s)
+[2024.07.23-21.44.46:927][937]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.44.46:934][937]LogInit: FAudioDevice initialized.
+[2024.07.23-21.44.46:941][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.44.46:973][937]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.44.46:974][937]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.44.46
+[2024.07.23-21.44.46:974][937]LogWorld: Bringing up level for play took: 0.000894
+[2024.07.23-21.44.46:987][937]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.44.46:987][937]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.44.46:987][937]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.44.46:989][937]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.44.46:990][937]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 1.157
+[2024.07.23-21.44.46:990][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.44.47:059][937]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2024.07.23-21.44.59:591][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.44.59:592][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.44.59:602][423]LogSlate: Window 'Pragyan_BattleGame Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.07.23-21.44.59:636][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.44.59:636][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.44.59:690][425]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.07.23-21.46.09:184][710]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.46.09:200][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.09:200][710]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.23-21.46.09:215][710]LogPlayLevel: [PlayLevel] Compiling Battlefront_Character before play...
+[2024.07.23-21.46.09:367][710]LogPlayLevel: PlayLevel: Blueprint regeneration took 166 ms (1 blueprints)
+[2024.07.23-21.46.09:367][710]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:46:09 AM)
+[2024.07.23-21.46.09:368][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.46.09:374][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006449s)
+[2024.07.23-21.46.09:375][710]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.46.09:375][710]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2024.07.23-21.46.09:375][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.007263s)
+[2024.07.23-21.46.09:405][710]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.46.09:412][710]LogInit: FAudioDevice initialized.
+[2024.07.23-21.46.09:419][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.46.09:450][710]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.46.09:451][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.46.09
+[2024.07.23-21.46.09:452][710]LogWorld: Bringing up level for play took: 0.001243
+[2024.07.23-21.46.09:464][710]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.46.09:464][710]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.46.09:464][710]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.46.09:466][710]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.46.09:467][710]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront -0.366
+[2024.07.23-21.46.09:467][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.14:758][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.14:758][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.46.14:769][326]LogSlate: Window 'Pragyan_BattleGame Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.07.23-21.46.14:802][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.46.14:802][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.14:864][329]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.07.23-21.46.20:226][964]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.46.20:242][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.20:242][964]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.23-21.46.20:256][964]LogPlayLevel: [PlayLevel] Compiling Battlefront_Character before play...
+[2024.07.23-21.46.20:405][964]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2024.07.23-21.46.20:405][964]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:46:20 AM)
+[2024.07.23-21.46.20:405][964]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.46.20:411][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005554s)
+[2024.07.23-21.46.20:412][964]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.46.20:412][964]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2024.07.23-21.46.20:412][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.006484s)
+[2024.07.23-21.46.20:441][964]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.46.20:447][964]LogInit: FAudioDevice initialized.
+[2024.07.23-21.46.20:454][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.46.20:486][964]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.46.20:486][964]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.46.20
+[2024.07.23-21.46.20:488][964]LogWorld: Bringing up level for play took: 0.000893
+[2024.07.23-21.46.20:501][964]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.46.20:501][964]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.46.20:501][964]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.46.20:502][964]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.46.20:503][964]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.671
+[2024.07.23-21.46.20:503][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.30:817][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.30:817][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.46.30:827][184]LogSlate: Window 'Pragyan_BattleGame Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.07.23-21.46.30:860][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.46.30:860][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.46.30:922][187]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.07.23-21.47.08:925][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.023
+[2024.07.23-21.47.08:927][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Battlefront_Character] ([1] browsable assets)...
+[2024.07.23-21.47.08:964][955]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character]
+[2024.07.23-21.47.08:964][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Battlefront_Character]
+[2024.07.23-21.47.09:021][955]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Battlefront_Character_Auto38F6384934693A251C3D230A17B9E4056.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/Characters/Battlefront_Character_Auto3.uasset'
+[2024.07.23-21.47.09:023][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUD/GameplayHUD] ([1] browsable assets)...
+[2024.07.23-21.47.09:023][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUD/GameplayHUD]
+[2024.07.23-21.47.09:023][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/GameplayHUD" FILE="../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.07.23-21.47.09:037][955]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/GameplayHUD_Auto3368B292E45F5DA02F53EA2BD585B5F6F.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/UI/HUD/GameplayHUD_Auto3.uasset'
+[2024.07.23-21.47.09:038][955]LogFileHelpers: Auto-saving content packages took 0.112
+[2024.07.23-21.51.58:751][961]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.51.58:766][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.51.58:766][961]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.23-21.51.58:780][961]LogPlayLevel: [PlayLevel] Compiling Battlefront_Character before play...
+[2024.07.23-21.51.58:937][961]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (1 blueprints)
+[2024.07.23-21.51.58:938][961]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:51:58 AM)
+[2024.07.23-21.51.58:938][961]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.51.58:945][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006669s)
+[2024.07.23-21.51.58:945][961]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.51.58:946][961]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2024.07.23-21.51.58:946][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.007564s)
+[2024.07.23-21.51.58:974][961]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.51.58:981][961]LogInit: FAudioDevice initialized.
+[2024.07.23-21.51.59:008][961]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.51.59:010][961]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.51.59
+[2024.07.23-21.51.59:010][961]LogWorld: Bringing up level for play took: 0.000850
+[2024.07.23-21.51.59:023][961]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.51.59:023][961]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.51.59:023][961]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.51.59:024][961]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.51.59:025][961]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 1.192
+[2024.07.23-21.51.59:025][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.52.16:545][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.52.16:546][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.52.16:580][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.52.16:580][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.52.16:604][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.52.16:646][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.07.23-21.52.19:166][361]LogLinker: Warning: Can't find file '/Game/Characters/ThirdPersonGameMode'
+[2024.07.23-21.52.19:166][361]LogLinker: Warning: Can't find file '/Game/Characters/ThirdPersonGameMode'
+[2024.07.23-21.52.19:166][361]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2024.07.23-21.52.19:171][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.07.23-21.54.22:143][316]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.54.22:158][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.54.22:158][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.23-21.54.22:158][316]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:54:22 AM)
+[2024.07.23-21.54.22:158][316]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.54.22:164][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006207s)
+[2024.07.23-21.54.22:165][316]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.54.22:165][316]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2024.07.23-21.54.22:165][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.007031s)
+[2024.07.23-21.54.22:198][316]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.54.22:206][316]LogInit: FAudioDevice initialized.
+[2024.07.23-21.54.22:234][316]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.54.22:236][316]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.54.22
+[2024.07.23-21.54.22:236][316]LogWorld: Bringing up level for play took: 0.000893
+[2024.07.23-21.54.22:249][316]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.54.22:249][316]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.54.22:249][316]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.54.22:251][316]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.54.22:251][316]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.419
+[2024.07.23-21.54.22:251][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.54.34:290][757]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.54.34:290][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.54.34:321][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.54.34:321][757]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.54.34:345][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.54.34:391][759]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.07.23-21.54.35:183][854]Cmd: SELECT NONE
+[2024.07.23-21.54.36:045][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.54.36:212][977]LogTemp: Repeating last play command: Selected Viewport
+[2024.07.23-21.54.36:227][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.54.36:227][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.23-21.54.36:227][977]PIE: New page: PIE session: Battlefront (Jul 23, 2024, 7:54:36 AM)
+[2024.07.23-21.54.36:227][977]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Battlefront
+[2024.07.23-21.54.36:233][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006571s)
+[2024.07.23-21.54.36:234][977]LogAIModule: Creating AISystem for world Battlefront
+[2024.07.23-21.54.36:234][977]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2024.07.23-21.54.36:234][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Battlefront.Battlefront to /Game/Maps/UEDPIE_0_Battlefront.Battlefront (0.007248s)
+[2024.07.23-21.54.36:264][977]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.07.23-21.54.36:271][977]LogInit: FAudioDevice initialized.
+[2024.07.23-21.54.36:302][977]LogLoad: Game class is 'BattlefrontGM_C'
+[2024.07.23-21.54.36:304][977]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Battlefront.Battlefront up for play (max tick rate 0) at 2024.07.23-14.54.36
+[2024.07.23-21.54.36:304][977]LogWorld: Bringing up level for play took: 0.000840
+[2024.07.23-21.54.36:316][977]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.54.36:316][977]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.07.23-21.54.36:316][977]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.54.36:318][977]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.07.23-21.54.36:318][977]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Battlefront 0.486
+[2024.07.23-21.54.36:318][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.54.42:730][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.07.23-21.55.38:923][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.55.38:923][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.55.38:981][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.23-21.55.38:981][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Battlefront.Battlefront:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront' with GeneratedClass '/Game/Maps/Battlefront.Battlefront_C' with ClassGeneratedBy '/Game/Maps/Battlefront.Battlefront:PersistentLevel.Battlefront'
+[2024.07.23-21.55.39:005][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.23-21.55.39:021][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.07.23-21.55.40:475][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.07.23-21.58.42:285][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Battlefront' took 0.023
+[2024.07.23-21.58.42:287][645]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Battlefront_Character] ([1] browsable assets)...
+[2024.07.23-21.58.42:312][645]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Battlefront_Character.Battlefront_Character]
+[2024.07.23-21.58.42:312][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Battlefront_Character]
+[2024.07.23-21.58.42:368][645]LogSavePackage: Moving '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Battlefront_Character_Auto4A351E0404E1538FEF585129C46C5541B.tmp' to '../../../../../../Users/NLK/Desktop/PragyanM Battle/Saved/Autosaves/Game/Characters/Battlefront_Character_Auto4.uasset'
+[2024.07.23-21.58.42:370][645]LogFileHelpers: Auto-saving content packages took 0.084
